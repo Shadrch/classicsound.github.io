@@ -1,0 +1,265 @@
+
+.container{
+     width: 80%;
+     margin: 0 auto;
+ }
+ 
+ header{
+    text-align: center;
+} 
+nav > .stick{
+    width: 100%;
+    height: auto;
+    padding: 7px 0;
+    display: none;
+}
+.stick > i {
+    margin-left: 90%;
+   font-size: 20px;
+    display: block;
+  cursor: pointer;
+}
+nav > ul {
+    text-align: center;
+    background-color: #ddd;
+    max-width: 100%;
+    padding: 10px 0;
+    word-spacing: 50px;
+    display: block;
+}
+.list , .anchor{
+display: inline-block;
+list-style: none;
+font-size: 15px;
+font-weight: 400;
+text-decoration: none;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+color: black;
+text-decoration: none;
+}
+.anchor:hover{
+color: white;
+background: green;
+padding: 2px 5px;
+}
+.sub-nav{
+     max-width: 80%;
+    height: auto;
+    background: black;
+    margin-top: 3px;
+}
+figure , .item{
+    display: inline-block;
+    list-style: none;
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    word-spacing: 2px;
+    margin: 0 5px;
+    margin-left: 10px;
+    padding: 10px 2px;
+    }
+    .sub-text{
+        max-width:80% ;
+        height: auto;
+        background: #ddd;
+        padding: 1px 0;
+    }
+    .sub-text > h3 {
+        margin-left: 10px;
+    }
+    b{
+      color: red;
+      cursor: pointer;
+    }
+    #search{
+        margin: 10px 0;
+        width: 50%;
+     padding: 5px 5px ;
+     font-size:12px;
+     border-radius: 4px;
+    }
+    .search{
+        margin: 10px 0;
+        border-radius: 4px;
+        box-shadow: 5px 3px 2px gray;
+        width: 10%;
+     padding: 5px 5px ;
+     font-size:12px;
+     font-weight: bold;
+     color: white;
+     background: green;
+     border: 1px solid #ddd;
+     cursor: pointer;
+    }
+    .main-content{
+        width: 100%;
+        height: auto;
+        background: gray;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .music{
+        width: 54%;
+        height: 200px;
+        background-color: green;
+        margin: 5px auto;
+    }
+    .news{
+        width: 45%;
+        height: 200px;
+        background-color: green;
+        margin: 5px auto;
+    }
+    .video{
+        width: 60%;
+        height: 200px;
+        background-color: green;
+        margin: 5px auto;
+    }
+    .lyric{
+        width: 39%;
+        height: 200px;
+        background-color: green;
+        margin: 5px auto;
+    }
+    .dropdown{
+        width: 100%;
+        height: auto;
+    }
+    .dropdown > span {
+        display: none;
+    }
+    .dropdown > p {
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    footer{
+        width: 100%;
+        height: 300px;
+        background-color: black;
+    }
+    @media screen and (max-width:870px) {
+        .container{
+            width: 100%;
+            margin: 0 ;
+        }
+        
+        nav > ul {
+            text-align: start;
+            background-color: #ddd;
+            max-width: 100%;
+            margin: 0;
+             display: none; 
+        }
+        .list , .anchor{
+            display:block ;
+            list-style: none;
+            font-size: 18px;
+            font-weight: 400;
+            text-decoration: none;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            color: black;
+            text-decoration: none;
+            margin: 5px 10px;
+            }
+        .sub-nav{
+            max-width: 100%;
+           height: auto;
+           background: black;
+           text-align: center;
+       }
+       figure , .item{
+        display: inline-block;
+        list-style: none;
+        font-size: 13px;
+        font-weight: 300;
+        text-decoration: none;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        margin-left: auto;
+        padding: 5px 2px ;
+        }
+       .sub-text{
+        max-width:100% ;
+        height: auto;
+        background: #ddd;
+        padding: 1px 0;
+    }
+    #search{
+        margin: 10px 0;
+        width: 70%;
+     padding: 5px 5px ;
+     font-size:12px;
+    }
+    .search{
+        margin: 10px 0;
+        width: 20%;
+     padding: 5px 5px ;
+     font-size:12px;
+     font-weight: bold;
+     color: white;
+     background: green;
+     border: 1px solid #ddd;
+     cursor: pointer;
+     border-radius: 4px;
+     box-shadow: 5px 3px 2px gray;
+    }
+    .main-content{
+        width: 100%;
+        height: auto;
+        background: gray;
+        display: block;
+        
+    }
+    .music{
+        width: 100%;
+        height: 200px;
+        background-color: green;
+        margin: 5px auto;
+    }
+    .news{
+        width: 100%;
+        height: 200px;
+        background-color: green;
+        margin: 5px auto;
+    }
+    .video{
+        width: 100%;
+        height: 200px;
+        background-color: green;
+        margin: 5px auto;
+    }
+    .lyric{
+        width: 100%;
+        height: 200px;
+        background-color: green;
+        margin: 5px auto;
+    }
+    .dropdown > p {
+        display: inline-block;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    nav > .stick{
+        width: 100%;
+        height: auto;
+        padding: 7px 0;
+        background-color: green;
+        display: block;
+    }
+    header > img{
+      width: 60%;
+      height: 120px;
+    } 
+   
+    }
