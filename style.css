@@ -12,9 +12,11 @@ nav > .stick{
     height: auto;
     padding: 14px 0;
     display: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .stick > i {
-    margin-left: 90%;
+    margin-left: 85%;
    font-size: 25px;
     display: block;
   cursor: pointer;
@@ -173,7 +175,8 @@ figure , .item{
         .sub-nav{
             max-width: 100%;
            height: auto;
-           background: black
+           background: black;
+           text-align: center;
        }
        figure , .item{
         display: inline-block;
@@ -185,7 +188,7 @@ figure , .item{
         color: white;
         text-decoration: none;
         padding: 5px 0 ;
-        margin: 0 7px;
+        margin: 0 10px;
         }
        .sub-text{
         max-width:100% ;
