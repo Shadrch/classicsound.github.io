@@ -20,5 +20,5 @@ function display() {
 }setInterval(display, 10);
 
 function show() {
-    let play = document.getElementById("nav-list").style.display ="block";
+    // let play = document.getElementById("nav-list").style.display ="block";
 }
