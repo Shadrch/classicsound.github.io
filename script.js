@@ -19,6 +19,22 @@ function display() {
     document.getElementById("second").innerHTML = second;
 }setInterval(display, 10);
 
-function show() {
-    // let play = document.getElementById("nav-list").style.display ="block";
+let stick = document.getElementById('stick');
+let faBar = document.getElementById('fa-bar')
+let navList = document.getElementById('nav-list');
+const nav = document.getElementById('nav');
+nav.addEventListener("click",function () {
+   if ( navList.style.display="none") {
+    navList.style.display="block";
+   }
+  
+});
+
+function change() {
+    if (faBar.className == "fa-solid fa-bars") {
+        faBar.className = "fa-solid fa-times"
+        faBar.style.fontSize="30px"
+    } else {
+        faBar.className== "fa-solid fa-bars" 
+    }
 }

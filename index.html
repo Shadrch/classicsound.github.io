@@ -22,9 +22,9 @@
 
         <p id="greet"></p>
      </div>
- <nav>
-    <div class="stick">
-        <i class="fa-solid fa-bars" id="fa-bar" onclick="show()"></i>
+ <nav id="nav" onclick="change()">
+    <div id="stick" class="stick" >
+        <i class="fa-solid fa-bars" id="fa-bar"  ></i>
     </div>
      <ul id="nav-list" class="nav-list">
         <li class="list"><a class="anchor" href="">HOME </a></li>
@@ -64,7 +64,31 @@
     </div>
     </div>
 </main>
-<footer></footer>
+<footer>
+    <div class="footer-about">
+        <h6>ABOUT US</h6>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem non nobis nostrum optio fuga, cum dolorum sapiente recusandae, omnis odio facere molestiae debitis itaque dolor eos impedit ducimus consequatur possimus?</p>
+    </div>
+    <div class="suport">
+        <ol>
+            <h6>support</h6>
+           <li><a href="">private policy</a></li>
+           <li><a href="">terms and condition</a></li>
+           <li><a href="">faq</a></li>
+           <li><a href="">bout author</a></li>
+        </ol>
+    </div>
+    <div class="subscribe">
+        <form action="#">
+            <label for="email" id="email">ENTER EMAIL HERE...</label>
+            <input type="email" name="email" id="gmail">
+            <button type="submit" id="submit"> submit</button>
+        </form><hr>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+</footer>
  </div>
  <script src="script.js"></script>
 </body>
